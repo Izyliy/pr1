@@ -16,7 +16,7 @@ class ReadyViewController: UIViewController {
         button.setTitle("apts", for: .normal)
         button.backgroundColor = .systemRed
         button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 8.0
+        button.layer.cornerRadius = 100.0
 
         return button
     }()
@@ -32,10 +32,10 @@ class ReadyViewController: UIViewController {
         readyButton.translatesAutoresizingMaskIntoConstraints = false
 
         NSLayoutConstraint.activate([
-            readyButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            readyButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            readyButton.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            readyButton.topAnchor.constraint(equalTo: view.topAnchor),
             readyButton.widthAnchor.constraint(equalToConstant: 200),
-            readyButton.heightAnchor.constraint(equalToConstant: 50)
+            readyButton.heightAnchor.constraint(equalToConstant: 500)
         ])
         
         readyButton.addTarget(self, action: #selector(didTapReadyButton(_:)), for: .touchUpInside)

@@ -30,7 +30,7 @@ enum TabBarPage {
         case .apartments:
             return "Квартиры"
         case .steady:
-            return "Что-то"
+            return "Календарь"
         case .go:
             return "Настройки"
         }
