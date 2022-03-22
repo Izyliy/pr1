@@ -132,7 +132,14 @@ class TabCoordinator: NSObject, Coordinator {
       
     private func getTabController(_ page: TabBarPage) -> UINavigationController {
         let navController = UINavigationController()
-        navController.navigationBar.backgroundColor = .green
+        
+        let standardAppearance = UINavigationBarAppearance()
+        standardAppearance.configureWithOpaqueBackground()
+        standardAppearance.backgroundColor = UIColor(red: 202/256, green: 231/256, blue: 193/256, alpha: 1)
+        
+        navController.navigationBar.standardAppearance = standardAppearance
+        navController.navigationBar.scrollEdgeAppearance = standardAppearance
+        navController.navigationBar.compactAppearance = standardAppearance
 
         navController.tabBarItem = UITabBarItem.init(title: page.pageTitleValue(),
                                                      image: page.imageForTab(),
