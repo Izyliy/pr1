@@ -18,6 +18,7 @@
 		E50EC1BF27BD66E900B68557 /* SteadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1BC27BD66E900B68557 /* SteadyViewController.swift */; };
 		E50EC1C327BD670100B68557 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1C127BD670100B68557 /* LoginCoordinator.swift */; };
 		E50EC1C427BD670100B68557 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1C227BD670100B68557 /* LoginViewController.swift */; };
+		E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */; };
 		E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */; };
 		E5B9E9D727CE88F1004F0E11 /* ApartamentsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B9E9D627CE88F1004F0E11 /* ApartamentsList.storyboard */; };
 		E5B9E9D927CE893C004F0E11 /* ApartamentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D827CE893C004F0E11 /* ApartamentsListViewController.swift */; };
@@ -36,6 +37,7 @@
 		E50EC1BC27BD66E900B68557 /* SteadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteadyViewController.swift; sourceTree = "<group>"; };
 		E50EC1C127BD670100B68557 /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		E50EC1C227BD670100B68557 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Appearance.swift"; sourceTree = "<group>"; };
 		E5B9E9CF27BEB4A0004F0E11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsCoordinator.swift; sourceTree = "<group>"; };
 		E5B9E9D627CE88F1004F0E11 /* ApartamentsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ApartamentsList.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		E50EC18327BD62E500B68557 /* RentHelper */ = {
 			isa = PBXGroup;
 			children = (
+				E512AED827EB80A6004417FE /* Extensions */,
 				E50EC1C027BD66F700B68557 /* Login */,
 				E50EC1B927BD66D300B68557 /* TabBar */,
 				E50EC1B227BD669200B68557 /* Coordinators */,
@@ -136,6 +139,14 @@
 				E50EC1C227BD670100B68557 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		E512AED827EB80A6004417FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E5B9E9D127C7F457004F0E11 /* TabBarCoordinators */ = {
@@ -240,6 +251,7 @@
 				E50EC1BF27BD66E900B68557 /* SteadyViewController.swift in Sources */,
 				E5B9E9D927CE893C004F0E11 /* ApartamentsListViewController.swift in Sources */,
 				E50EC18527BD62E500B68557 /* AppDelegate.swift in Sources */,
+				E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */,
 				E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */,
 				E50EC1B827BD66AB00B68557 /* TabCoordinator.swift in Sources */,
 				E50EC1BD27BD66E900B68557 /* GoViewController.swift in Sources */,
