@@ -24,6 +24,7 @@
 		E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */; };
 		E5B9E9D727CE88F1004F0E11 /* ApartamentsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B9E9D627CE88F1004F0E11 /* ApartamentsList.storyboard */; };
 		E5B9E9D927CE893C004F0E11 /* ApartamentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D827CE893C004F0E11 /* ApartamentsListViewController.swift */; };
+		E5F30F9727FDE8810094FF9D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F30F9627FDE8810094FF9D /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsCoordinator.swift; sourceTree = "<group>"; };
 		E5B9E9D627CE88F1004F0E11 /* ApartamentsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ApartamentsList.storyboard; sourceTree = "<group>"; };
 		E5B9E9D827CE893C004F0E11 /* ApartamentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartamentsListViewController.swift; sourceTree = "<group>"; };
+		E5F30F9627FDE8810094FF9D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,6 @@
 				55A6CA6AC5B12229CF64F13A /* Pods-RentHelper.debug.xcconfig */,
 				27D8B3D911F9FDE93E593007 /* Pods-RentHelper.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +125,7 @@
 		E50EC1A727BD645200B68557 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E5F30F9527FDE8360094FF9D /* Generated */,
 				E5352AFC27FDDA1B002A6E65 /* Images.xcassets */,
 				E50EC18D27BD62E600B68557 /* Colors.xcassets */,
 			);
@@ -142,8 +144,8 @@
 		E50EC1B227BD669200B68557 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				E50EC1B327BD66AB00B68557 /* Coordinator.swift */,
 				E5B9E9D127C7F457004F0E11 /* TabBarCoordinators */,
+				E50EC1B327BD66AB00B68557 /* Coordinator.swift */,
 				E50EC1B427BD66AB00B68557 /* AppCoordinator.swift */,
 				E50EC1B527BD66AB00B68557 /* TabCoordinator.swift */,
 			);
@@ -200,6 +202,14 @@
 				E5B9E9D627CE88F1004F0E11 /* ApartamentsList.storyboard */,
 			);
 			path = ApartamentsListModule;
+			sourceTree = "<group>";
+		};
+		E5F30F9527FDE8360094FF9D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				E5F30F9627FDE8810094FF9D /* Assets.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +318,7 @@
 				E50EC18527BD62E500B68557 /* AppDelegate.swift in Sources */,
 				E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */,
 				E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */,
+				E5F30F9727FDE8810094FF9D /* Assets.swift in Sources */,
 				E50EC1B827BD66AB00B68557 /* TabCoordinator.swift in Sources */,
 				E50EC1BD27BD66E900B68557 /* GoViewController.swift in Sources */,
 				E50EC1BE27BD66E900B68557 /* ReadyVievController.swift in Sources */,

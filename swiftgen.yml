@@ -1,0 +1,7 @@
+xcassets:
+  inputs:
+    - RentHelper/Resources/Images.xcassets
+    - RentHelper/Resources/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: RentHelper/Resources/Generated/Assets.swift
