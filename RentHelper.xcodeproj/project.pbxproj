@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4D10D9AA8BC61FD0EEC0C89 /* Pods_RentHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F047C97902E84F82A844B6 /* Pods_RentHelper.framework */; };
 		E50EC18527BD62E500B68557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC18427BD62E500B68557 /* AppDelegate.swift */; };
 		E50EC18E27BD62E600B68557 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50EC18D27BD62E600B68557 /* Colors.xcassets */; };
 		E50EC19127BD62E600B68557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50EC18F27BD62E600B68557 /* LaunchScreen.storyboard */; };
@@ -26,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04F047C97902E84F82A844B6 /* Pods_RentHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RentHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D8B3D911F9FDE93E593007 /* Pods-RentHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentHelper.release.xcconfig"; path = "Target Support Files/Pods-RentHelper/Pods-RentHelper.release.xcconfig"; sourceTree = "<group>"; };
+		55A6CA6AC5B12229CF64F13A /* Pods-RentHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RentHelper.debug.xcconfig"; path = "Target Support Files/Pods-RentHelper/Pods-RentHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		E50EC18127BD62E500B68557 /* RentHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50EC18427BD62E500B68557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E50EC18D27BD62E600B68557 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -51,17 +55,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D10D9AA8BC61FD0EEC0C89 /* Pods_RentHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A99AD158E27464EB5DFC6C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55A6CA6AC5B12229CF64F13A /* Pods-RentHelper.debug.xcconfig */,
+				27D8B3D911F9FDE93E593007 /* Pods-RentHelper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91912E1557D23D96482EA2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F047C97902E84F82A844B6 /* Pods_RentHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E50EC17827BD62E500B68557 = {
 			isa = PBXGroup;
 			children = (
 				E50EC18327BD62E500B68557 /* RentHelper */,
 				E50EC18227BD62E500B68557 /* Products */,
+				5A99AD158E27464EB5DFC6C5 /* Pods */,
+				91912E1557D23D96482EA2C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50EC19527BD62E600B68557 /* Build configuration list for PBXNativeTarget "RentHelper" */;
 			buildPhases = (
+				92F4ADF3253CF82449461495 /* [CP] Check Pods Manifest.lock */,
 				E50EC17D27BD62E500B68557 /* Sources */,
 				E50EC17E27BD62E500B68557 /* Frameworks */,
 				E50EC17F27BD62E500B68557 /* Resources */,
@@ -243,6 +269,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92F4ADF3253CF82449461495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RentHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E50EC17D27BD62E500B68557 /* Sources */ = {
@@ -396,6 +447,7 @@
 		};
 		E50EC19627BD62E600B68557 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A6CA6AC5B12229CF64F13A /* Pods-RentHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,6 +478,7 @@
 		};
 		E50EC19727BD62E600B68557 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D8B3D911F9FDE93E593007 /* Pods-RentHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
