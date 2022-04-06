@@ -1,0 +1,6 @@
+framework module Pods_RentHelper {
+  umbrella header "Pods-RentHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
