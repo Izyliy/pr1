@@ -1,7 +1,17 @@
+strings:
+  inputs: RentHelper/Resources/en.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: RentHelper/Generated/Strings.swift
 xcassets:
   inputs:
     - RentHelper/Resources/Images.xcassets
     - RentHelper/Resources/Colors.xcassets
   outputs:
     - templateName: swift5
-      output: RentHelper/Resources/Generated/Assets.swift
+      output: RentHelper/Generated/Assets.swift
+ib:
+  inputs: RentHelper
+  outputs:
+    - templateName: scenes-swift5
+      output: RentHelper/Generated/Storyboards.swift

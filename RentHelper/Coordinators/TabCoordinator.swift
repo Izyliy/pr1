@@ -121,7 +121,7 @@ class TabCoordinator: NSObject, Coordinator {
         tabBarController.selectedIndex = TabBarPage.apartments.pageOrderNumber()
         /// Styling
         tabBarController.tabBar.isTranslucent = true
-        tabBarController.tabBar.backgroundColor = UIColor(red: 128/256, green: 206/256, blue: 225/256, alpha: 0.7)
+        tabBarController.tabBar.backgroundColor = Asset.Colors._3.color
         tabBarController.tabBar.layer.cornerRadius = 25
         tabBarController.tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
 

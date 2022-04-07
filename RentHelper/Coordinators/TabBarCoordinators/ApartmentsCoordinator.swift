@@ -42,7 +42,7 @@ class ApartamentsCoordinator: ApartamentsCoordinatorProtocol {
         let viewController: ReadyViewController = .init()
         
         viewController.didSendEventClosure = { [weak self] event in
-            guard let apList = self?.getApartamentsListModule() else { return }
+            guard let apList = self?.getApartmentsListModule() else { return }
             
             self?.navigationController.pushViewController(apList, animated: true)
         }
@@ -50,9 +50,9 @@ class ApartamentsCoordinator: ApartamentsCoordinatorProtocol {
         return viewController
     }
     
-    func getApartamentsListModule() -> ApartamentsListViewController {
-        let storyBoard: UIStoryboard = UIStoryboard(name: "ApartamentsList", bundle: nil)
-        let viewController = storyBoard.instantiateViewController(withIdentifier: "ApartamentsList") as! ApartamentsListViewController
+    func getApartmentsListModule() -> ApartmentsListViewController {
+        let storyBoard: UIStoryboard = UIStoryboard(name: StoryboardScene.ApartmentsList.storyboardName, bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: StoryboardScene.ApartmentsList.storyboardName) as! ApartmentsListViewController
                 
         return viewController
     }

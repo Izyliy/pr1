@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  RentHelper
+
+  Created by Павел Грабчак on 07.04.2022.
+  
+*/
+
+
+//MARK: - TabBar
+"tabBar.settings" = "Settings";
+"tabBar.apartments" = "Apartments";
+"tabBar.calendar" = "Calendar";

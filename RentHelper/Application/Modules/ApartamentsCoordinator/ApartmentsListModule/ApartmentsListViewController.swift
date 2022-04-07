@@ -1,5 +1,5 @@
 //
-//  ApartamentsListViewController.swift
+//  ApartmentsListViewController.swift
 //  RentHelper
 //
 //  Created by Павел Грабчак on 01.03.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ApartamentsListViewController: UIViewController {
+class ApartmentsListViewController: UIViewController {
     
     @IBOutlet weak var button: UIButton!
     
