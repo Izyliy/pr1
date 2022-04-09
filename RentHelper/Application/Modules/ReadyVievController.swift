@@ -28,6 +28,7 @@ class ReadyViewController: UIViewController {
         view.backgroundColor = .white
 
         view.addSubview(readyButton)
+        view.backgroundColor = Asset.Colors.background.color
 
         readyButton.translatesAutoresizingMaskIntoConstraints = false
 

@@ -25,6 +25,7 @@
 		E5EBBD9427FF50DB0021D397 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9327FF50DB0021D397 /* Storyboards.swift */; };
 		E5EBBD9A27FF5A0B0021D397 /* ApartmentsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */; };
 		E5EBBD9B27FF5A0B0021D397 /* ApartmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */; };
+		E5EBBD9D2800A09B0021D397 /* UITabBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */; };
 		E5F30F9727FDE8810094FF9D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F30F9627FDE8810094FF9D /* Assets.swift */; };
 		E5F30F9A27FF02080094FF9D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5F30F9C27FF02080094FF9D /* Localizable.strings */; };
 		E5F30FA027FF17A20094FF9D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F30F9F27FF17A20094FF9D /* Strings.swift */; };
@@ -53,6 +54,7 @@
 		E5EBBD9327FF50DB0021D397 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ApartmentsList.storyboard; sourceTree = "<group>"; };
 		E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentsListViewController.swift; sourceTree = "<group>"; };
+		E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Appearance.swift"; sourceTree = "<group>"; };
 		E5F30F9627FDE8810094FF9D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		E5F30F9B27FF02080094FF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E5F30F9D27FF02410094FF9D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */,
+				E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				E5EBBD9427FF50DB0021D397 /* Storyboards.swift in Sources */,
 				E5F30FA027FF17A20094FF9D /* Strings.swift in Sources */,
 				E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */,
+				E5EBBD9D2800A09B0021D397 /* UITabBar+Appearance.swift in Sources */,
 				E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */,
 				E5F30F9727FDE8810094FF9D /* Assets.swift in Sources */,
 				E50EC1B827BD66AB00B68557 /* TabCoordinator.swift in Sources */,

@@ -120,10 +120,7 @@ class TabCoordinator: NSObject, Coordinator {
         /// Let set index
         tabBarController.selectedIndex = TabBarPage.apartments.pageOrderNumber()
         /// Styling
-        tabBarController.tabBar.isTranslucent = true
-        tabBarController.tabBar.backgroundColor = Asset.Colors._3.color
-        tabBarController.tabBar.layer.cornerRadius = 25
-        tabBarController.tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        tabBarController.becomeDefault()
 
         
         /// In this step, we attach tabBarController to navigation controller associated with this coorda nator

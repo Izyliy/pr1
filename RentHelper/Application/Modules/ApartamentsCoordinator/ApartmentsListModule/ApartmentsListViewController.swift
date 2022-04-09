@@ -14,7 +14,7 @@ class ApartmentsListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        button.layer.cornerRadius = 8
+        button.layer.cornerRadius = 18
     }
 
 }
