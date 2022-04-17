@@ -33,23 +33,10 @@ class ApartamentsCoordinator: ApartamentsCoordinatorProtocol {
     }
     
     func showApartamentsCoordinator() {
-        navigationController.pushViewController(getReadyModule(), animated: true)
+        navigationController.pushViewController(getApartmentsListModule(), animated: true)
     }
     
     //MARK: - Methods for creating modules
-    
-    func getReadyModule() -> ReadyViewController {
-        let viewController: ReadyViewController = .init()
-        
-        viewController.didSendEventClosure = { [weak self] event in
-            guard let apList = self?.getApartmentsListModule() else { return }
-            
-            self?.navigationController.pushViewController(apList, animated: true)
-        }
-        
-        return viewController
-    }
-    
     func getApartmentsListModule() -> ApartmentsListViewController {
         let storyBoard: UIStoryboard = UIStoryboard(name: StoryboardScene.ApartmentsList.storyboardName, bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: StoryboardScene.ApartmentsList.storyboardName) as! ApartmentsListViewController

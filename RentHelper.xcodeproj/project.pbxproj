@@ -15,7 +15,6 @@
 		E50EC1B727BD66AB00B68557 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1B427BD66AB00B68557 /* AppCoordinator.swift */; };
 		E50EC1B827BD66AB00B68557 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1B527BD66AB00B68557 /* TabCoordinator.swift */; };
 		E50EC1BD27BD66E900B68557 /* GoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1BA27BD66E900B68557 /* GoViewController.swift */; };
-		E50EC1BE27BD66E900B68557 /* ReadyVievController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1BB27BD66E900B68557 /* ReadyVievController.swift */; };
 		E50EC1BF27BD66E900B68557 /* SteadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1BC27BD66E900B68557 /* SteadyViewController.swift */; };
 		E50EC1C327BD670100B68557 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1C127BD670100B68557 /* LoginCoordinator.swift */; };
 		E50EC1C427BD670100B68557 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1C227BD670100B68557 /* LoginViewController.swift */; };
@@ -26,6 +25,10 @@
 		E5EBBD9A27FF5A0B0021D397 /* ApartmentsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */; };
 		E5EBBD9B27FF5A0B0021D397 /* ApartmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */; };
 		E5EBBD9D2800A09B0021D397 /* UITabBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */; };
+		E5EBBDA42801E2330021D397 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBDA12801E2330021D397 /* FiraSans-Medium.ttf */; };
+		E5EBBDA52801E2330021D397 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBDA22801E2330021D397 /* FiraSans-Bold.ttf */; };
+		E5EBBDA62801E2330021D397 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBDA32801E2330021D397 /* FiraSans-Regular.ttf */; };
+		E5EBBDA9280C461D0021D397 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBDA8280C461C0021D397 /* Fonts.swift */; };
 		E5F30F9727FDE8810094FF9D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F30F9627FDE8810094FF9D /* Assets.swift */; };
 		E5F30F9A27FF02080094FF9D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5F30F9C27FF02080094FF9D /* Localizable.strings */; };
 		E5F30FA027FF17A20094FF9D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F30F9F27FF17A20094FF9D /* Strings.swift */; };
@@ -43,7 +46,6 @@
 		E50EC1B427BD66AB00B68557 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E50EC1B527BD66AB00B68557 /* TabCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		E50EC1BA27BD66E900B68557 /* GoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoViewController.swift; sourceTree = "<group>"; };
-		E50EC1BB27BD66E900B68557 /* ReadyVievController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyVievController.swift; sourceTree = "<group>"; };
 		E50EC1BC27BD66E900B68557 /* SteadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteadyViewController.swift; sourceTree = "<group>"; };
 		E50EC1C127BD670100B68557 /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		E50EC1C227BD670100B68557 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,10 @@
 		E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ApartmentsList.storyboard; sourceTree = "<group>"; };
 		E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentsListViewController.swift; sourceTree = "<group>"; };
 		E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Appearance.swift"; sourceTree = "<group>"; };
+		E5EBBDA12801E2330021D397 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		E5EBBDA22801E2330021D397 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		E5EBBDA32801E2330021D397 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		E5EBBDA8280C461C0021D397 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		E5F30F9627FDE8810094FF9D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		E5F30F9B27FF02080094FF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E5F30F9D27FF02410094FF9D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 				E5352AFC27FDDA1B002A6E65 /* Images.xcassets */,
 				E50EC18D27BD62E600B68557 /* Colors.xcassets */,
 				E5F30F9C27FF02080094FF9D /* Localizable.strings */,
+				E5EBBDA02801E1C20021D397 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -165,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				E50EC1BA27BD66E900B68557 /* GoViewController.swift */,
-				E50EC1BB27BD66E900B68557 /* ReadyVievController.swift */,
 				E50EC1BC27BD66E900B68557 /* SteadyViewController.swift */,
 				E50EC1C027BD66F700B68557 /* LoginCoordinator */,
 				E5B9E9D427CE883F004F0E11 /* ApartamentsCoordinator */,
@@ -216,12 +222,23 @@
 			path = ApartmentsListModule;
 			sourceTree = "<group>";
 		};
+		E5EBBDA02801E1C20021D397 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E5EBBDA22801E2330021D397 /* FiraSans-Bold.ttf */,
+				E5EBBDA12801E2330021D397 /* FiraSans-Medium.ttf */,
+				E5EBBDA32801E2330021D397 /* FiraSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E5F30F9527FDE8360094FF9D /* Generated */ = {
 			isa = PBXGroup;
 			children = (
 				E5F30F9627FDE8810094FF9D /* Assets.swift */,
 				E5F30F9F27FF17A20094FF9D /* Strings.swift */,
 				E5EBBD9327FF50DB0021D397 /* Storyboards.swift */,
+				E5EBBDA8280C461C0021D397 /* Fonts.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -289,8 +306,11 @@
 			files = (
 				E5EBBD9A27FF5A0B0021D397 /* ApartmentsList.storyboard in Resources */,
 				E5F30F9A27FF02080094FF9D /* Localizable.strings in Resources */,
+				E5EBBDA42801E2330021D397 /* FiraSans-Medium.ttf in Resources */,
 				E5352AFD27FDDA1B002A6E65 /* Images.xcassets in Resources */,
+				E5EBBDA52801E2330021D397 /* FiraSans-Bold.ttf in Resources */,
 				E50EC19127BD62E600B68557 /* LaunchScreen.storyboard in Resources */,
+				E5EBBDA62801E2330021D397 /* FiraSans-Regular.ttf in Resources */,
 				E50EC18E27BD62E600B68557 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +372,7 @@
 				E50EC1BF27BD66E900B68557 /* SteadyViewController.swift in Sources */,
 				E50EC18527BD62E500B68557 /* AppDelegate.swift in Sources */,
 				E5EBBD9427FF50DB0021D397 /* Storyboards.swift in Sources */,
+				E5EBBDA9280C461D0021D397 /* Fonts.swift in Sources */,
 				E5F30FA027FF17A20094FF9D /* Strings.swift in Sources */,
 				E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */,
 				E5EBBD9D2800A09B0021D397 /* UITabBar+Appearance.swift in Sources */,
@@ -359,7 +380,6 @@
 				E5F30F9727FDE8810094FF9D /* Assets.swift in Sources */,
 				E50EC1B827BD66AB00B68557 /* TabCoordinator.swift in Sources */,
 				E50EC1BD27BD66E900B68557 /* GoViewController.swift in Sources */,
-				E50EC1BE27BD66E900B68557 /* ReadyVievController.swift in Sources */,
 				E50EC1C427BD670100B68557 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

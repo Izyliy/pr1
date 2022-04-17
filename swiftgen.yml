@@ -15,3 +15,8 @@ ib:
   outputs:
     - templateName: scenes-swift5
       output: RentHelper/Generated/Storyboards.swift
+fonts:
+  inputs: RentHelper/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: RentHelper/Generated/Fonts.swift

@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,27 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6g-JI-byB">
-                                <rect key="frame" x="10" y="94" width="239" height="31"/>
+                                <rect key="frame" x="0.0" y="405.5" width="414" height="85"/>
                                 <color key="backgroundColor" name="AccentColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="239" id="1Q3-nL-J5M"/>
-                                    <constraint firstAttribute="height" constant="31" id="Imf-Lm-f6w"/>
-                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain" title="Как то">
+                                    <fontDescription key="titleFontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="59"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Background"/>
                         <constraints>
-                            <constraint firstItem="k6g-JI-byB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="5pP-WD-Hwl"/>
-                            <constraint firstItem="k6g-JI-byB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="cZu-Ty-FWH"/>
+                            <constraint firstItem="k6g-JI-byB" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Cqt-8t-eYI"/>
+                            <constraint firstItem="k6g-JI-byB" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Eoj-hQ-YQu"/>
+                            <constraint firstItem="k6g-JI-byB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cfn-mo-7mH"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="k6g-JI-byB" id="DO1-Sx-mgV"/>
+                        <outlet property="button" destination="k6g-JI-byB" id="ucL-cK-aDi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -50,11 +49,11 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="Background">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

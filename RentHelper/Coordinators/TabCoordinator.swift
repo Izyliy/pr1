@@ -50,11 +50,11 @@ enum TabBarPage {
     func imageForTab() -> UIImage? {
         switch self {
         case .apartments:
-            return UIImage(named: "first")
+            return Asset.Images.first.image
         case .steady:
-            return UIImage(named: "second")
+            return Asset.Images.second.image
         case .go:
-            return UIImage(named: "third")
+            return Asset.Images.third.image
         }
     }
     
