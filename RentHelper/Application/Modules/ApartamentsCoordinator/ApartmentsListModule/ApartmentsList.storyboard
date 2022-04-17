@@ -18,26 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6g-JI-byB">
-                                <rect key="frame" x="0.0" y="405.5" width="414" height="85"/>
-                                <color key="backgroundColor" name="AccentColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmN-dQ-Im3">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Qeb-6T-baC"/>
+                                    <constraint firstAttribute="width" constant="200" id="cns-gg-dYm"/>
+                                </constraints>
+                                <color key="tintColor" name="Button Background"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Как то">
-                                    <fontDescription key="titleFontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="59"/>
-                                    <color key="baseForegroundColor" systemColor="labelColor"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="Background"/>
                         <constraints>
-                            <constraint firstItem="k6g-JI-byB" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Cqt-8t-eYI"/>
-                            <constraint firstItem="k6g-JI-byB" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Eoj-hQ-YQu"/>
-                            <constraint firstItem="k6g-JI-byB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cfn-mo-7mH"/>
+                            <constraint firstItem="bmN-dQ-Im3" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9c5-SZ-Jts"/>
+                            <constraint firstItem="bmN-dQ-Im3" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="MrH-9l-4qt"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="k6g-JI-byB" id="ucL-cK-aDi"/>
+                        <outlet property="button" destination="bmN-dQ-Im3" id="EDu-2e-By1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -46,14 +47,14 @@
         </scene>
     </scenes>
     <resources>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="Background">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <namedColor name="Button Background">
+            <color red="0.87058823529411766" green="0.90196078431372551" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

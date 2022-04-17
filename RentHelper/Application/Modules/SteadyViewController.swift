@@ -17,7 +17,7 @@ class SteadyViewController: UIViewController {
         button.backgroundColor = .systemYellow
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 8.0
-        button.titleLabel?.font = UIFont(name: FontFamily.FiraSans.regular.name, size: 30)
+        button.titleLabel?.font = FontFamily.FiraSans.regular.font(size: 25)
 
         return button
     }()
