@@ -7,5 +7,6 @@ target 'RentHelper' do
 
   # Pods for RentHelper
 	pod 'SwiftGen', '~> 6.0'
+  pod 'SnapKit', '~> 5.6.0'
 
 end
