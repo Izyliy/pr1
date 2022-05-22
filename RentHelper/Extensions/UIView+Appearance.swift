@@ -10,9 +10,6 @@ import UIKit
 
 extension UIViewController {
     func defaultAppearance() {
-        view.backgroundColor = UIColor(red: 229/255,
-                                       green: 229/255,
-                                       blue: 229/255,
-                                       alpha: 1)
+        view.backgroundColor = Asset.Colors.vcBackground.color
     }
 }
