@@ -21,8 +21,8 @@
 		E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */; };
 		E5352AFD27FDDA1B002A6E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5352AFC27FDDA1B002A6E65 /* Images.xcassets */; };
 		E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */; };
+		E5E22155283A792C00E77F49 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22154283A792C00E77F49 /* UIView+Appearance.swift */; };
 		E5EBBD9427FF50DB0021D397 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9327FF50DB0021D397 /* Storyboards.swift */; };
-		E5EBBD9A27FF5A0B0021D397 /* ApartmentsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */; };
 		E5EBBD9B27FF5A0B0021D397 /* ApartmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */; };
 		E5EBBD9D2800A09B0021D397 /* UITabBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */; };
 		E5EBBDA42801E2330021D397 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5EBBDA12801E2330021D397 /* FiraSans-Medium.ttf */; };
@@ -53,8 +53,8 @@
 		E5352AFC27FDDA1B002A6E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5B9E9CF27BEB4A0004F0E11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsCoordinator.swift; sourceTree = "<group>"; };
+		E5E22154283A792C00E77F49 /* UIView+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
 		E5EBBD9327FF50DB0021D397 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ApartmentsList.storyboard; sourceTree = "<group>"; };
 		E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentsListViewController.swift; sourceTree = "<group>"; };
 		E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Appearance.swift"; sourceTree = "<group>"; };
 		E5EBBDA12801E2330021D397 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
@@ -193,6 +193,7 @@
 			children = (
 				E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */,
 				E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */,
+				E5E22154283A792C00E77F49 /* UIView+Appearance.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -217,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				E5EBBD9927FF5A0B0021D397 /* ApartmentsListViewController.swift */,
-				E5EBBD9827FF5A0B0021D397 /* ApartmentsList.storyboard */,
 			);
 			path = ApartmentsListModule;
 			sourceTree = "<group>";
@@ -305,7 +305,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EBBD9A27FF5A0B0021D397 /* ApartmentsList.storyboard in Resources */,
 				E5F30F9A27FF02080094FF9D /* Localizable.strings in Resources */,
 				E5EBBDA42801E2330021D397 /* FiraSans-Medium.ttf in Resources */,
 				E5352AFD27FDDA1B002A6E65 /* Images.xcassets in Resources */,
@@ -389,6 +388,7 @@
 				E5EBBD9B27FF5A0B0021D397 /* ApartmentsListViewController.swift in Sources */,
 				E50EC1BF27BD66E900B68557 /* SteadyViewController.swift in Sources */,
 				E50EC18527BD62E500B68557 /* AppDelegate.swift in Sources */,
+				E5E22155283A792C00E77F49 /* UIView+Appearance.swift in Sources */,
 				E5EBBD9427FF50DB0021D397 /* Storyboards.swift in Sources */,
 				E5EBBDA9280C461D0021D397 /* Fonts.swift in Sources */,
 				E5F30FA027FF17A20094FF9D /* Strings.swift in Sources */,

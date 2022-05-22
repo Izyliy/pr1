@@ -12,11 +12,6 @@ import UIKit
 
 // swiftlint:disable explicit_type_interface identifier_name line_length type_body_length type_name
 internal enum StoryboardScene {
-  internal enum ApartmentsList: StoryboardType {
-    internal static let storyboardName = "ApartmentsList"
-
-    internal static let apartmentsList = SceneType<RentHelper.ApartmentsListViewController>(storyboard: ApartmentsList.self, identifier: "ApartmentsList")
-  }
   internal enum LaunchScreen: StoryboardType {
     internal static let storyboardName = "LaunchScreen"
 

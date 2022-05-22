@@ -9,16 +9,10 @@ import UIKit
 
 class ApartmentsListViewController: UIViewController {
     
-    @IBOutlet weak var button: UIButton! {
-        didSet {
-            button.layer.cornerRadius = 5
-            button.titleLabel?.font = FontFamily.FiraSans.regular.font(size: 30)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        defaultAppearance()
 //        button.layer.cornerRadius = 18
 //        button.titleLabel?.font = UIFont(name: FontFamily.FiraSans.regular.name, size: 30)
     }

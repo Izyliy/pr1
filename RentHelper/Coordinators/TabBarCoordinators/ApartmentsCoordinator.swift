@@ -38,8 +38,7 @@ class ApartamentsCoordinator: ApartamentsCoordinatorProtocol {
     
     //MARK: - Methods for creating modules
     func getApartmentsListModule() -> ApartmentsListViewController {
-        let storyBoard: UIStoryboard = UIStoryboard(name: StoryboardScene.ApartmentsList.storyboardName, bundle: nil)
-        let viewController = storyBoard.instantiateViewController(withIdentifier: StoryboardScene.ApartmentsList.storyboardName) as! ApartmentsListViewController
+        let viewController = ApartmentsListViewController()
                 
         return viewController
     }
