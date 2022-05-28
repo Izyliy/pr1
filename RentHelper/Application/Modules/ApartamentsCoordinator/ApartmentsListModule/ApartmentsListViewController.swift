@@ -10,28 +10,52 @@ import SnapKit
 
 class ApartmentsListViewController: UIViewController {
     
-    private let testButton: UIButton = {
-        let button = UIButton()
-        button.setTitle("dewfcerdsv", for: .normal)
-        button.enabledAppearance()
+    private let tableView: UITableView = {
+        let table = UITableView()
+        table.backgroundColor = .clear
 
-        return button
+        return table
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(testButton)
+        tableView.register(FlatPreviewTableViewCell.self, forCellReuseIdentifier: "cell")
+        view.addSubview(tableView)
         
-        testButton.snp.makeConstraints { make in
-            make.width.height.equalTo(200)
-            make.width.width.equalTo(200)
-            make.center.equalTo(self.view)
+        tableView.snp.makeConstraints { make in
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview()
+            make.left.equalToSuperview()
+            make.right.equalToSuperview()
         }
         
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         defaultAppearance()
-//        button.layer.cornerRadius = 18
-//        button.titleLabel?.font = UIFont(name: FontFamily.FiraSans.regular.name, size: 30)
     }
+}
 
+extension ApartmentsListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        100
+    }
+    
+}
+
+extension ApartmentsListViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FlatPreviewTableViewCell
+        
+        return cell
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        10
+    }
 }
