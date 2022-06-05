@@ -1,5 +1,6 @@
 //
 //  AppDelegate.swift
+//
 //  RentHelper
 //
 //  Created by Павел Грабчак on 16.02.2022.
