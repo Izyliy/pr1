@@ -188,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				E50EC1C127BD670100B68557 /* LoginCoordinator.swift */,
-				E50EC1C227BD670100B68557 /* LoginViewController.swift */,
+				E58661252847CB2C00812429 /* LoginModule */,
 			);
 			path = LoginCoordinator;
 			sourceTree = "<group>";
@@ -202,6 +202,14 @@
 				E5E22156283A865C00E77F49 /* UIButton+Appearance.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E58661252847CB2C00812429 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				E50EC1C227BD670100B68557 /* LoginViewController.swift */,
+			);
+			path = LoginModule;
 			sourceTree = "<group>";
 		};
 		E5B9E9D127C7F457004F0E11 /* TabBarCoordinators */ = {
