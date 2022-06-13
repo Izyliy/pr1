@@ -23,6 +23,7 @@ internal typealias AssetImageTypeAlias = ImageAsset.Image
 internal enum Asset {
   internal enum Colors {
     internal static let blueTitle = ColorAsset(name: "Blue Title")
+    internal static let placeholderColor = ColorAsset(name: "Placeholder Color")
     internal static let disabledButtonBackground = ColorAsset(name: "Disabled Button Background")
     internal static let disabledButtonText = ColorAsset(name: "Disabled Button Text")
     internal static let enabledButtonBackground = ColorAsset(name: "Enabled Button Background")
