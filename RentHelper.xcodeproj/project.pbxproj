@@ -20,6 +20,7 @@
 		E50EC1C427BD670100B68557 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50EC1C227BD670100B68557 /* LoginViewController.swift */; };
 		E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */; };
 		E5352AFD27FDDA1B002A6E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5352AFC27FDDA1B002A6E65 /* Images.xcassets */; };
+		E56EB28D28560C16009EEE28 /* LoginElementsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */; };
 		E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */; };
 		E5E22155283A792C00E77F49 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22154283A792C00E77F49 /* UIView+Appearance.swift */; };
 		E5E22157283A865C00E77F49 /* UIButton+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22156283A865C00E77F49 /* UIButton+Appearance.swift */; };
@@ -53,6 +54,7 @@
 		E50EC1C227BD670100B68557 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Appearance.swift"; sourceTree = "<group>"; };
 		E5352AFC27FDDA1B002A6E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginElementsCreator.swift; sourceTree = "<group>"; };
 		E5B9E9CF27BEB4A0004F0E11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsCoordinator.swift; sourceTree = "<group>"; };
 		E5E22154283A792C00E77F49 /* UIView+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				E50EC1C227BD670100B68557 /* LoginViewController.swift */,
+				E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */,
 			);
 			path = LoginModule;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				E5EBBDA9280C461D0021D397 /* Fonts.swift in Sources */,
 				E5F30FA027FF17A20094FF9D /* Strings.swift in Sources */,
 				E5E2215A283A8B2300E77F49 /* FlatPreviewTableViewCell.swift in Sources */,
+				E56EB28D28560C16009EEE28 /* LoginElementsCreator.swift in Sources */,
 				E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */,
 				E5E22157283A865C00E77F49 /* UIButton+Appearance.swift in Sources */,
 				E5EBBD9D2800A09B0021D397 /* UITabBar+Appearance.swift in Sources */,

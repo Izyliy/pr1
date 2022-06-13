@@ -8,20 +8,27 @@
 import Foundation
 import UIKit
 
+enum ButtonStyle {
+    case standart
+    case disabled
+    case textOnly
+}
+
 extension UIButton {
-    func enabledAppearance() {
-        configAppearance()
-        backgroundColor = Asset.Colors.enabledButton.color
-    }
-    
-    func disabledAppearance() {
-        configAppearance()
-        backgroundColor = Asset.Colors.disabledButton.color
-    }
-    
-    private func configAppearance() {
-        setTitleColor(.white, for: .normal)
-        layer.cornerRadius = 8.0
-        titleLabel?.font = FontFamily.FiraSans.regular.font(size: 20)
+    func changeAppearance(to state: ButtonStyle) {
+        layer.cornerRadius = 6.0
+        titleLabel?.font = FontFamily.FiraSans.bold.font(size: 20)
+        
+        switch state {
+        case .standart:
+            setTitleColor(Asset.Colors.enabledButtonText.color, for: .normal)
+            backgroundColor = Asset.Colors.enabledButtonBackground.color
+        case .disabled:
+            setTitleColor(Asset.Colors.disabledButtonText.color, for: .normal)
+            backgroundColor = Asset.Colors.disabledButtonBackground.color
+        case .textOnly:
+            setTitleColor(Asset.Colors.enabledButtonBackground.color, for: .normal)
+            backgroundColor = .clear
+        }
     }
 }

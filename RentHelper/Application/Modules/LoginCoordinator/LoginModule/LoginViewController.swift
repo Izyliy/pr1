@@ -8,36 +8,14 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    let elementsCreator = LoginElementsCreator()
 
     var didSendEventClosure: ((LoginViewController.Event) -> Void)?
 
-    private let loginButton: UIButton = {
-        let button = UIButton()
-        button.setTitle("Login", for: .normal)
-        button.backgroundColor = .systemBlue
-        button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 8.0
-        
-        return button
-    }()
-    
-    private let loginTextField: UITextField = {
-        let textField = UITextField()
-        textField.layer.cornerRadius = 8.0
-        textField.placeholder = "login"
-        textField.borderStyle = .bezel
-        
-        return textField
-    }()
-    
-    private let passwordTextField: UITextField = {
-        let textField = UITextField()
-        textField.layer.cornerRadius = 8.0
-        textField.placeholder = "password"
-        textField.borderStyle = .roundedRect
-        
-        return textField
-    }()
+    private var loginButton: UIButton!
+    private var loginTextField: UITextField!
+    private var passwordTextField: UITextField!
     
     private let stack: UIStackView = {
         let stackView = UIStackView()
@@ -46,8 +24,12 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        loginTextField = elementsCreator.getTextField(title: "Login")
+        passwordTextField = elementsCreator.getTextField(title: "Password")
+        loginButton = elementsCreator.getButton()
 
-        view.backgroundColor = .white
+        view.backgroundColor = Asset.Colors.vcBackground.color
         
         stack.alignment = .fill
         stack.distribution = .fillEqually
@@ -70,6 +52,10 @@ class LoginViewController: UIViewController {
         ])
         
         loginButton.addTarget(self, action: #selector(didTapLoginButton(_:)), for: .touchUpInside)
+    }
+    
+    func setConstraints() {
+        
     }
     
     deinit {
