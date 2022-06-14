@@ -35,6 +35,7 @@ class LoginElementsCreator {
         let button = UIButton()
         button.setTitle("Логин", for: .normal)
         button.changeAppearance(to: .standart)
+        button.setPressingAnimation()
         
         return button
     }
@@ -43,6 +44,7 @@ class LoginElementsCreator {
         let button = UIButton()
         button.setTitle("Пройти регистрацию", for: .normal)
         button.changeAppearance(to: .textOnly)
+        button.setPressingAnimation()
         
         return button
     }

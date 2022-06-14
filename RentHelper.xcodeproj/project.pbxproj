@@ -21,6 +21,7 @@
 		E512AEDA27EB810B004417FE /* UINavigationBar+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */; };
 		E5352AFD27FDDA1B002A6E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5352AFC27FDDA1B002A6E65 /* Images.xcassets */; };
 		E56EB28D28560C16009EEE28 /* LoginElementsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */; };
+		E56EB2922858EEEE009EEE28 /* UIButton+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EB2912858EEEE009EEE28 /* UIButton+Animation.swift */; };
 		E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */; };
 		E5E22155283A792C00E77F49 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22154283A792C00E77F49 /* UIView+Appearance.swift */; };
 		E5E22157283A865C00E77F49 /* UIButton+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22156283A865C00E77F49 /* UIButton+Appearance.swift */; };
@@ -55,6 +56,7 @@
 		E512AED927EB810B004417FE /* UINavigationBar+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Appearance.swift"; sourceTree = "<group>"; };
 		E5352AFC27FDDA1B002A6E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginElementsCreator.swift; sourceTree = "<group>"; };
+		E56EB2912858EEEE009EEE28 /* UIButton+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Animation.swift"; sourceTree = "<group>"; };
 		E5B9E9CF27BEB4A0004F0E11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsCoordinator.swift; sourceTree = "<group>"; };
 		E5E22154283A792C00E77F49 /* UIView+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				E5EBBD9C2800A09B0021D397 /* UITabBar+Appearance.swift */,
 				E5E22154283A792C00E77F49 /* UIView+Appearance.swift */,
 				E5E22156283A865C00E77F49 /* UIButton+Appearance.swift */,
+				E56EB2912858EEEE009EEE28 /* UIButton+Animation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E50EC1B627BD66AB00B68557 /* Coordinator.swift in Sources */,
+				E56EB2922858EEEE009EEE28 /* UIButton+Animation.swift in Sources */,
 				E50EC1C327BD670100B68557 /* LoginCoordinator.swift in Sources */,
 				E50EC1B727BD66AB00B68557 /* AppCoordinator.swift in Sources */,
 				E5EBBD9B27FF5A0B0021D397 /* ApartmentsListViewController.swift in Sources */,
