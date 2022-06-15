@@ -8,6 +8,13 @@
 import UIKit
 
 class LoginElementsCreator {
+    func getLogoView() -> UIImageView {
+        let view = UIImageView()
+        view.image = Asset.Images.loginLogo.image
+        
+        return view
+    }
+    
     func getLoginTextField() -> UITextField {
         let textField = UITextField()
         textField.layer.cornerRadius = 6

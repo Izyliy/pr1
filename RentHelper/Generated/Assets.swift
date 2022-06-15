@@ -31,6 +31,7 @@ internal enum Asset {
     internal static let vcBackground = ColorAsset(name: "vcBackground")
   }
   internal enum Images {
+    internal static let loginLogo = ImageAsset(name: "LoginLogo")
     internal static let first = ImageAsset(name: "first")
     internal static let second = ImageAsset(name: "second")
     internal static let third = ImageAsset(name: "third")

@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     private var loginTextField: UITextField!
     private var passwordTextField: UITextField!
     private var textFieldsStack: UIStackView!
+    private var logoView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,7 @@ class LoginViewController: UIViewController {
         loginButton = elementsCreator.getLoginButton()
         registerButton = elementsCreator.getRegisterButton()
         textFieldsStack = elementsCreator.getStackView()
+        logoView = elementsCreator.getLogoView()
         
         setVisuals()
         
@@ -53,9 +55,16 @@ class LoginViewController: UIViewController {
         view.addSubview(textFieldsStack)
         view.addSubview(loginButton)
         view.addSubview(registerButton)
+        view.addSubview(logoView)
     }
     
     func setConstraints() {
+        logoView.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.top.greaterThanOrEqualToSuperview().offset(60).priority(.high)
+            make.bottom.equalTo(textFieldsStack.snp.top).offset(-60).priority(.low)
+        }
+        
         textFieldsStack.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-20)
