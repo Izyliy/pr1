@@ -94,7 +94,12 @@ class LoginViewController: UIViewController {
     }
 
     @objc private func didTapLoginButton(_ sender: Any) {
-        didSendEventClosure?(.login)
+        view.startInditation()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+            self.view.stopIndication()
+            self.didSendEventClosure?(.login)
+        })
+//        didSendEventClosure?(.login)
     }
 }
 
