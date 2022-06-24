@@ -23,6 +23,7 @@
 		E56EB28D28560C16009EEE28 /* LoginElementsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */; };
 		E56EB2922858EEEE009EEE28 /* UIButton+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EB2912858EEEE009EEE28 /* UIButton+Animation.swift */; };
 		E57FFE4D2861E64C00C287AC /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FFE4C2861E64C00C287AC /* UIView+Animation.swift */; };
+		E57FFE502862241700C287AC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FFE4F2862241700C287AC /* NetworkHandler.swift */; };
 		E5B9E9D327C7F512004F0E11 /* ApartmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */; };
 		E5E22155283A792C00E77F49 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22154283A792C00E77F49 /* UIView+Appearance.swift */; };
 		E5E22157283A865C00E77F49 /* UIButton+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E22156283A865C00E77F49 /* UIButton+Appearance.swift */; };
@@ -59,6 +60,7 @@
 		E56EB28C28560C16009EEE28 /* LoginElementsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginElementsCreator.swift; sourceTree = "<group>"; };
 		E56EB2912858EEEE009EEE28 /* UIButton+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Animation.swift"; sourceTree = "<group>"; };
 		E57FFE4C2861E64C00C287AC /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		E57FFE4F2862241700C287AC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		E5B9E9CF27BEB4A0004F0E11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B9E9D227C7F511004F0E11 /* ApartmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsCoordinator.swift; sourceTree = "<group>"; };
 		E5E22154283A792C00E77F49 /* UIView+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				E50EC1A627BD642000B68557 /* SupportingFiles */,
 				E50EC1A727BD645200B68557 /* Resources */,
 				E5F30F9527FDE8360094FF9D /* Generated */,
+				E57FFE4E286221EF00C287AC /* Network */,
 				E512AED827EB80A6004417FE /* Extensions */,
 				E50EC1B227BD669200B68557 /* Coordinators */,
 				E50EC1A827BD646A00B68557 /* Application */,
@@ -210,6 +213,14 @@
 				E57FFE4C2861E64C00C287AC /* UIView+Animation.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E57FFE4E286221EF00C287AC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E57FFE4F2862241700C287AC /* NetworkHandler.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		E58661252847CB2C00812429 /* LoginModule */ = {
@@ -420,6 +431,7 @@
 				E50EC1B727BD66AB00B68557 /* AppCoordinator.swift in Sources */,
 				E5EBBD9B27FF5A0B0021D397 /* ApartmentsListViewController.swift in Sources */,
 				E50EC1BF27BD66E900B68557 /* SteadyViewController.swift in Sources */,
+				E57FFE502862241700C287AC /* NetworkHandler.swift in Sources */,
 				E50EC18527BD62E500B68557 /* AppDelegate.swift in Sources */,
 				E5E22155283A792C00E77F49 /* UIView+Appearance.swift in Sources */,
 				E5EBBD9427FF50DB0021D397 /* Storyboards.swift in Sources */,

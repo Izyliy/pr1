@@ -1,20 +1,28 @@
 PODS:
+  - PromisesObjC (2.1.0)
+  - PromisesSwift (2.1.0):
+    - PromisesObjC (= 2.1.0)
   - SnapKit (5.6.0)
   - SwiftGen (6.5.1)
 
 DEPENDENCIES:
+  - PromisesSwift
   - SnapKit (~> 5.6.0)
   - SwiftGen (~> 6.0)
 
 SPEC REPOS:
   trunk:
+    - PromisesObjC
+    - PromisesSwift
     - SnapKit
     - SwiftGen
 
 SPEC CHECKSUMS:
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  PromisesSwift: b39b85b2e2e2146b97f357500395117a6e5415a8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftGen: a6d22010845f08fe18fbdf3a07a8e380fd22e0ea
 
-PODFILE CHECKSUM: 11c1f4f6cd602283e783e16bb1cdd1f379394ff5
+PODFILE CHECKSUM: 6175e8cc29e8ff471ffa7f79b5eb890b5ca653d2
 
 COCOAPODS: 1.11.3
